@@ -28,6 +28,35 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+
+  .app-description {
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .launch-link {
+    margin: auto;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
